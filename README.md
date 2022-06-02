@@ -70,6 +70,6 @@ UPDATE: all userIDs have to remove the first 7 digits because of javaScript limi
 `python .\insert_data_sqlite.py <options>`
 
 Options:<br />
--i --input    | *must* Input file pathname. For example: ./output/gamesData.json<br />
+-i --input    | *must* Input JSON file pathname. For example: ./output/gamesData.json<br />
 -o --dbout    | *must* Output SQLite database pathname<br />
 -t --table    | *must* The table to insert, should be one of: games, game_genres, companies, develop_publish, users, likes, reviews
